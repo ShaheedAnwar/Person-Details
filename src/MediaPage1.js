@@ -11,13 +11,13 @@ const MediaPage1 = () => {
 
   // Sample contact data
   const contactData = {
-    firstName: 'Neetu',
-    lastName: 'Mishra',
-    phoneNo: '+917045697296',
-    phoneNo: '+919876543210',
-    email: 'neetu.mishra@simplelogic.in',
+    firstName: 'Kuleen',
+    lastName: 'Gosalia',
+    phoneNo: '+971508935936',
+    phoneNo: '+919820293936',
+    email: 'kuleen.gosalia@simplelogic.in',
     companyName: 'Simple Logic IT Pvt. Ltd.',
-    title: 'Assistant Vice President',
+    title: 'CEO & Managing Director',
     url: 'https://simplelogic-it.com/',
   };
 
