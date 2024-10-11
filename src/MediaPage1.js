@@ -133,12 +133,12 @@ END:VCARD`;
 
          {/* Image at the top */}
          <div className="w-full max-w-2xl z-10">
-        <img
-          src="/images/gitex.png"  // Add the path to your image here
-          alt="Header Image"
-          className="w-full h-auto rounded-lg shadow-lg object-cover"
-        />
-      </div>
+            <img
+            src="/images/gitex.png"  // Add the path to your image here
+            alt="Header Image"
+            className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
+        </div>
 
       {/* Responsive Image Scroller (Manual Scroll Only) */}
       <div className="relative w-full max-w-2xl">

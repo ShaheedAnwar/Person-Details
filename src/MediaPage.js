@@ -132,14 +132,14 @@ END:VCARD`;
       </div>
 
       {/* New Responsive Top Image */}
-      <div className="w-full max-w-2xl mb-4 z-10" style={{ overflow: 'hidden' }}>
-        <img
-          src="./images/gitex1.png"
-          alt="Top Banner"
-          className="w-full h-48 sm:h-64 md:h-80 lg:h-96 xl:h-120 rounded-lg shadow-lg object-contain"
-          style={{ objectPosition: 'center' }} // Ensure the image is centered if there's any space
-        />
-      </div>
+      {/* Image at the top */}
+      <div className="w-full max-w-2xl z-10">
+            <img
+            src="/images/gitex.png"  // Add the path to your image here
+            alt="Header Image"
+            className="w-full h-auto rounded-lg shadow-lg object-cover"
+            />
+        </div>
 
       {/* Responsive Image Scroller (Manual Scroll Only) */}
       <div className="relative w-full max-w-2xl">
