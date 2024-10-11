@@ -25,30 +25,49 @@ const ProductAndServices = () => {
         </div>
       </div>
 
-      {/* Services Section */}
-      <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+        {/* Services Section */}
+        <div className="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">Services</h1>
-        <div className="grid grid-cols-2 gap-4">
-          <button onClick={() => handleButtonClick('Data Base')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            Data Base Management
-          </button>
-          <button onClick={() => handleButtonClick('Middleware')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            Middleware Management
-          </button>
-          <button onClick={() => handleButtonClick('OS')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            OS Management 
-          </button>
-          <button onClick={() => handleButtonClick('Application')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            Application Management
-          </button>
-          <button onClick={() => handleButtonClick('Cloud Transformation')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            Cloud Transformation
-          </button>
-          <button onClick={() => handleButtonClick('Digital Transformation & Automation')} className="w-full sm:w-32 md:w-40 lg:w-48 bg-green-500 text-white py-2 rounded-md hover:bg-green-600 transition duration-300 text-center">
-            Digital Transformation & Automation
-          </button>
+            <div className="grid grid-cols-2 gap-4">
+                <button
+                onClick={() => handleButtonClick('Data Base')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                Data Base Management
+                </button>
+                <button
+                onClick={() => handleButtonClick('Middleware')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                Middleware Management
+                </button>
+                <button
+                onClick={() => handleButtonClick('OS')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                OS Management
+                </button>
+                <button
+                onClick={() => handleButtonClick('Application')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                Application Management
+                </button>
+                <button
+                onClick={() => handleButtonClick('Cloud Transformation')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                Cloud Transformation
+                </button>
+                <button
+                onClick={() => handleButtonClick('Digital Transformation & Automation')}
+                className="w-full sm:w-32 md:w-40 lg:w-48 bg-black text-white py-2 rounded-md hover:bg-gray-800 transition duration-300 text-center"
+                >
+                Digital Transformation & Automation
+                </button>
+            </div>
         </div>
-      </div>
+
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { Facebook, Instagram, Twitter, Linkedin, Youtube, Phone } from 'lucide-react';
 
-const MediaPage = () => {
+const MediaPage1 = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isCallActive, setIsCallActive] = useState(false);
   const scrollerRef = useRef(null);
@@ -80,8 +80,8 @@ END:VCARD`;
 
   // Array of images with corresponding phone numbers
   const images = [
-    { src: "/images/Neetu.png", phone: "+971 547769089" },
-    { src: "/images/Neetu1.png", phone: "+91 7045697296" },
+    { src: "/images/Kuleen.png", phone: "+971 508935936" },
+    { src: "/images/Kuleen1.png", phone: "+91 9820293936" },
   ];
 
   const handleCallClick = () => {
@@ -99,7 +99,7 @@ END:VCARD`;
   };
 
   const handleContactUsClick = () => {
-    navigate('/products&services'); 
+    navigate('/contact-us'); 
   };
 
   const handleScroll = () => {
@@ -212,7 +212,7 @@ END:VCARD`;
             Save Contact
           </button>
           <button onClick={handleContactUsClick} className="flex-1 bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-600">
-            Interested IN
+            Contact US
           </button>
         </div>
         <div className="w-full">
@@ -225,4 +225,4 @@ END:VCARD`;
   );
 }
 
-export default MediaPage;
+export default MediaPage1;
