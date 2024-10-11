@@ -13,7 +13,7 @@ const MediaPage1 = () => {
   const contactData = {
     firstName: 'Kuleen',
     lastName: 'Gosalia',
-    phoneNo: '+971508935936',
+    phoneNo1: '+971508935936',
     phoneNo: '+919820293936',
     email: 'kuleen.gosalia@simplelogic.in',
     companyName: 'Simple Logic IT Pvt. Ltd.',
@@ -22,7 +22,7 @@ const MediaPage1 = () => {
   };
 
   const saveContact = () => {
-    const { firstName, lastName, phoneNo, email, companyName, title, url } = contactData;
+    const { firstName, lastName, phoneNo, phoneNo1, email, companyName, title, url } = contactData;
 
     // Create vCard string
     const vCard = `BEGIN:VCARD
@@ -31,7 +31,8 @@ FN:${firstName} ${lastName}
 N:${lastName};${firstName};;;
 ORG:${companyName}
 TITLE:${title}
-TEL:${phoneNo}
+TEL;TYPE=WORK:${phoneNo1}
+TEL;TYPE=CELL:${phoneNo}
 EMAIL:${email}
 URL:${url}
 END:VCARD`;
