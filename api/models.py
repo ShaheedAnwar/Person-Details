@@ -9,6 +9,8 @@ class Person(models.Model):
     email = models.EmailField(unique=True)
     company_name = models.CharField(max_length=100)
     notes = models.TextField(blank=True, null=True)
+    received_from = models.CharField(max_length=250)
+    instrest = models.CharField(max_length=250,blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

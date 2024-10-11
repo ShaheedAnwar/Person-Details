@@ -1,0 +1,133 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.manifest
+*.spec
+
+# Installers
+*.exe
+*.dll
+*.deb
+*.pkg
+*.rpm
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# If you are using a database other than SQLite, ignore database migrations
+*.bak
+*.swp
+*.swo
+
+# Local development files
+*.env
+*.local
+.env
+.env.*
+
+# If using Django Debug Toolbar, ignore its cache:
+debug_toolbar_panels/
+
+# Django static files
+/static/
+staticfiles/
+
+# Django media files
+/media/
+mediafiles/
+
+# Ignore any secret settings or sensitive information
+secrets.json
+settings_local.py
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node_modules (if using npm/Yarn for front-end)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Testing results
+.tox/
+.pytest_cache/
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# pipenv and poetry
+Pipfile.lock
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx documentation
+docs/_build/
+
+# Pyre type checker
+.pyre/
+
+# Windows specific
+*.bat
+*.cmd
